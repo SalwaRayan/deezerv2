@@ -1,0 +1,112 @@
+/* GENERAL */
+
+body{
+  font-family: "Poppins";
+}
+
+.button{
+  border-radius: 20px;
+  padding: 7px 20px;
+  margin: 0 10px;
+  background: none;
+  border: 2px solid black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*
+- Rouge: #ef5466
+- Bleu: #2d96c8
+- Gris clair: #f9f9f9
+- Gris foncé: #8e8e94
+*/
+
+/* HEADER */
+
+header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 5px 10px -10px #111;
+}
+
+.headerbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+}
+
+.headerbox img{
+  height: 30px;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: 0 15px;
+}
+
+.connex{
+  color: #2d96c8;
+  border-color: #2d96c8;
+}
+
+.join{
+  color: white;
+  background: #2d96c8;
+  border-color: #2d96c8;
+}
+
+/*FIRST*/
+
+.first{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: rgb(19,231,189);
+  background: linear-gradient(130deg, rgba(19,231,189,1) 14%, rgba(75,75,255,1) 50%, rgba(143,6,221,1) 81%);
+}
+
+.firstbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.firstbox h2{
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.firstbox h1{
+  font-weight: 800;
+  font-size: 60px;
+  padding: 10px;
+}
+
+.firstbox h4{
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.firstbox button{
+  margin: 30px 0;
+  padding: 25px 110px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 60px;
+  color: white;
+  border: solid #33338d;
+  background: #33338d;
+}
+
+.firstbox ul{
+  list-style-type: initial;
+  list-style-position: unset;
+  line-height: 5px;
+  font-weight: 200;
+  font-size: 16px;
+}
