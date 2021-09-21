@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body{
-  font-family: "Poppins";
+  font-family: "Montserrat";
 }
 
 .button{
@@ -24,8 +24,8 @@ body{
 /* HEADER */
 
 header{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   box-shadow: 0px 5px 10px -10px #111;
 }
 
@@ -33,7 +33,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 100px;
+  margin: 20px 150px;
 }
 
 .headerbox img{
@@ -61,10 +61,10 @@ nav a{
 /*FIRST*/
 
 .first{
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background: rgb(19,231,189);
-  background: linear-gradient(130deg, rgba(19,231,189,1) 14%, rgba(75,75,255,1) 50%, rgba(143,6,221,1) 81%);
+  padding-top: 70px;
+  padding-bottom: 60px;
+  background: rgb(49,242,204);
+  background: linear-gradient(140deg, rgba(49,242,204,1) 20%, rgba(70,105,255,1) 55%, rgba(153,52,211,1) 81%);
 }
 
 .firstbox{
@@ -84,7 +84,7 @@ nav a{
 .firstbox h1{
   font-weight: 800;
   font-size: 60px;
-  padding: 10px;
+  padding: 40px;
 }
 
 .firstbox h4{
@@ -106,7 +106,42 @@ nav a{
 .firstbox ul{
   list-style-type: initial;
   list-style-position: unset;
-  line-height: 5px;
+  line-height: 21px;
   font-weight: 200;
   font-size: 16px;
+}
+
+/* INFORMATION */
+
+.infobox{
+  margin: 10px 100px;
+}
+
+.infobox h1{
+  text-align: center;
+  padding: 90px;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.col{
+  padding: 5px 26px;
+}
+
+.col h4{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.col p{
+  font-size: 14px;
+  color: #8e8e94;
+  padding-bottom: 50px;
+}
+
+
+@media (min-width: 1200px){
+  .container{
+    max-width: 910px;
+  }
 }
