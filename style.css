@@ -139,9 +139,38 @@ nav a{
   padding-bottom: 50px;
 }
 
+/* PUBLICITE */
+
+.publicite{
+  text-align: center;
+}
+
+.pubtitle{
+  padding: 60px 20px 20px 20px;
+}
+
+.publicite h1{
+  font-size: 60px;
+}
+
+.container-pub{
+  padding: 20px;
+}
+
+.publicite img{
+  width: 100%;
+}
+
+/* NOCONNEX */
+
+
 
 @media (min-width: 1200px){
   .container{
     max-width: 910px;
   }
+  .container-pub{
+      max-width: 548px;
+  }
+  
 }
